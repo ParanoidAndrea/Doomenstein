@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{9c02a5f8-d696-43f8-b254-fd697e572ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{c269a55f-9968-4044-adf8-98209f42bde6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{b0bdfa3b-7e39-410d-a69f-27c048a1a4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{95cc990f-d1e5-4fcf-b2a3-9ec637e82973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Definitions">
+      <UniqueIdentifier>{a66cd0f5-0d03-46d9-8bb8-d13e6cda9719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{631547e2-c18e-475a-a0e5-d0ea83c74175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Actors">
+      <UniqueIdentifier>{cd56712c-0cf2-4b18-bfbf-b24a9439330f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Controllers">
+      <UniqueIdentifier>{6aeb4d1b-3d6f-49eb-849c-2e2867d428b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Weapons">
+      <UniqueIdentifier>{2b30682c-c870-4458-ba6a-b0db0bfe72de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDefinition.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueMessage.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorDefinition.cpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorUID.cpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnInfo.cpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Gameplay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponDefinition.cpp">
+      <Filter>Gameplay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefinition.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueMessage.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDefinition.hpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorUID.hpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.hpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Gameplay\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnInfo.hpp">
+      <Filter>Gameplay\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hpp">
+      <Filter>Gameplay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponDefinition.hpp">
+      <Filter>Gameplay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ActorDefinitions.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\MapDefinitions.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ProjectileActorDefinitions.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\TileDefinitions.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\WeaponDefinitions.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\Default.hlsl">
+      <Filter>Data\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\Diffuse.hlsl">
+      <Filter>Data\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
