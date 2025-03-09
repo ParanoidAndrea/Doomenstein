@@ -1,0 +1,31 @@
+<GameConfig
+  defaultMap="MainMap"
+  musicVolume="0.4"
+  mainMenuMusic="Data/Audio/Music/Doomenstein_MainMenu.mp3"
+  gameMusic="Data/Audio/Music/Doomenstein_MainBGM.mp3"
+  storyMusic="Data/Audio/Music/StoryBGM.mp3"
+  dialogueMusic ="Data/Audio/Music/DialogBGM.mp3"
+   buttonClickSound="Data/Audio/Click.mp3"
+  dialogueBlipSound ="Data/Audio/DialogueBlip.wav"
+  victoryBGM ="Data/Audio/Music/VictoryBGM.mp3"
+  loseSound ="Data/Audio/Lose.mp3"
+  
+  attractScreen ="Data/Images/Meow-sionImpossible-Doom.png"
+  storyScreen1 ="Data/Images/DialogImage1.png"
+  storyScreen2 ="Data/Images/DialogImage2.png"
+  storyScreen3 ="Data/Images/DialogImage3.png"
+  storyScreen4 ="Data/Images/DialogImage4.png"
+  loadingImage ="Data/Images/Loading.png"
+  dialogueBoxImage ="Data/Images/DialogueBox.png"
+  victoryImage ="Data/Images/Wining.png"
+  creditImage ="Data/Images/Credit.png"
+  loseImage ="Data/Images/LosingImage.png"
+  
+  marinePlayerImage ="Data/Images/Marine.png"
+  doomerImage ="Data/Images/Doomer.png"
+  windowAspect="2.0"
+/>
+<!--
+	defaultMap="MPMap"
+ -->
+

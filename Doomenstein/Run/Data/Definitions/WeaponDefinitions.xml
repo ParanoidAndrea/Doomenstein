@@ -1,0 +1,56 @@
+<Definitions>
+  <!-- Pistol -->
+  <WeaponDefinition name="Pistol" refireTime="0.75" rayCount="1" rayCone="0.0" rayRange="40.0" rayDamage="10.0~15.0" rayImpulse="4.0">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/Reticle.png" reticleSize="16,16" spriteSize="525,384" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="0" endFrame="0"/>
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="1" endFrame="3" />
+    </HUD>
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/PistolFire.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+  <!-- Plasma Rifle -->
+  <WeaponDefinition name="PlasmaRifle" refireTime="0.1" projectileCount="1" projectileActor="PlasmaProjectile" projectileCone="4.0" projectileSpeed="6.0">
+    <HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/PlasmaReticle.png" reticleSize="40,40" spriteSize="525,384" spritePivot="0.5,0.0">
+      <Animation name="Idle" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="24" endFrame="24" />
+      <Animation name="Attack" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="25" endFrame="28" />
+    </HUD>
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/PlasmaFire.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+	<!-- SMG -->
+	<WeaponDefinition name="SMG" refireTime="0.15" rayCount="1" rayCone="1.0" rayRange="40.0" rayDamage="3.0~4.0" rayImpulse="1.0" recoilForce="1" recoilAmount="1.0" recoilDuration ="0.25">
+		<HUD shader="Default" baseTexture="Data/Images/Hud_Base.png" reticleTexture="Data/Images/SMGReticle.png" reticleSize="40,40" spriteSize="525,384" spritePivot="0.5,0.0">
+			<Animation name="Idle" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="14" endFrame="14" />
+			<Animation name="Attack" shader="Default" spriteSheet="Data/Images/WeaponSpriteSheet.png" cellCount="5,6" secondsPerFrame="0.1" startFrame="15" endFrame="18" />
+		</HUD>
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/SMGFire.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+<!-- Kama -->
+<WeaponDefinition name="Kama" refireTime="1" projectileCount="1" projectileActor="KamaProjectile" projectileCone="4.0" projectileSpeed="6.0">
+	<Sounds>
+		<Sound sound="Fire" name="Data/Audio/KamaAttack.mp3"/>
+	</Sounds>
+</WeaponDefinition>
+	<!-- CatGun -->
+	<WeaponDefinition name="CatGun" refireTime="1.5" projectileCount="1" projectileActor="CatGunProjectile" projectileCone="3.0" projectileSpeed="6.0">
+		<Sounds>
+			<Sound sound="Fire" name="Data/Audio/CatMeow.wav"/>
+		</Sounds>
+	</WeaponDefinition>
+<!-- Ninja Melee -->
+<WeaponDefinition name="NinjaMelee" refireTime="1.5" meleeCount="1" meleeArc="180.0" meleeRange="1" meleeDamage="2.0~4.0" meleeImpulse="2.0">
+	<Sounds>
+		<Sound sound="Fire" name="Data/Audio/Ninja_Punch.wav"/>
+	</Sounds>
+</WeaponDefinition>
+  <!-- Demon Melee -->
+  <WeaponDefinition name="DemonMelee" refireTime="2.0" meleeCount="1" meleeArc="180.0" meleeRange="0.75" meleeDamage="2.0~4.0" meleeImpulse="2.0">
+    <Sounds>
+      <Sound sound="Fire" name="Data/Audio/DemonAttack.wav"/>
+    </Sounds>
+  </WeaponDefinition>
+</Definitions>
